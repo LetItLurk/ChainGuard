@@ -1,5 +1,5 @@
 # ChainGuard
-
+<video src="./ChainGuard.mp4" controls width="100%"></video>
 **AI-powered smart-contract security investigation and attack-chain reconstruction platform.**
 
 ChainGuard does not just find vulnerabilities. It reconstructs how weaknesses across a repository can connect into a realistic attack path, validates the evidence behind each step, and shows developers exactly where they can break the chain.
