@@ -1,0 +1,66 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "target": "ES6",
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/.pnpm/@types+node@24.10.4/node_modules/@types"
+    ],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"],
+      "next": ["./node_modules/.pnpm/next@16.3.3_@babel+core@7.29.7_@types+node@24.10.4_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/index.d.ts"],
+      "next/*": ["./node_modules/.pnpm/next@16.3.3_@babel+core@7.29.7_@types+node@24.10.4_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/next/*"],
+      "react": ["./node_modules/.pnpm/@types+react@19.2.14/node_modules/@types/react/index.d.ts"],
+      "react/jsx-runtime": ["./node_modules/.pnpm/@types+react@19.2.14/node_modules/@types/react/jsx-runtime.d.ts"],
+      "react/jsx-dev-runtime": ["./node_modules/.pnpm/@types+react@19.2.14/node_modules/@types/react/jsx-dev-runtime.d.ts"],
+      "react-dom": ["./node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom"],
+      "react-dom/*": ["./node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom/*"],
+      "swr": ["./node_modules/.pnpm/swr@2.5.1_react@19.2.4/node_modules/swr"],
+      "swr/*": ["./node_modules/.pnpm/swr@2.5.1_react@19.2.4/node_modules/swr/*"],
+      "lucide-react": ["./node_modules/.pnpm/lucide-react@1.17.0_react@19.2.4/node_modules/lucide-react"],
+      "lucide-react/*": ["./node_modules/.pnpm/lucide-react@1.17.0_react@19.2.4/node_modules/lucide-react/*"],
+      "zod": ["./node_modules/.pnpm/zod@4.6.5/node_modules/zod"],
+      "zod/*": ["./node_modules/.pnpm/zod@4.6.5/node_modules/zod/*"],
+      "ai": ["./node_modules/.pnpm/ai@7.0.116_zod@4.6.5/node_modules/ai"],
+      "ai/*": ["./node_modules/.pnpm/ai@7.0.116_zod@4.6.5/node_modules/ai/*"],
+      "server-only": ["./node_modules/.pnpm/server-only@0.0.1/node_modules/server-only"],
+      "clsx": ["./node_modules/.pnpm/clsx@2.1.1/node_modules/clsx"],
+      "tailwind-merge": ["./node_modules/.pnpm/tailwind-merge@3.4.0/node_modules/tailwind-merge"],
+      "class-variance-authority": ["./node_modules/.pnpm/class-variance-authority@0.7.1/node_modules/class-variance-authority"],
+      "@vercel/analytics/next": ["./node_modules/.pnpm/@vercel+analytics@1.6.1_next@16.3.3_@babel+core@7.29.7_@types+node@24.10.4_react-dom@19_af6c48a18fed9163dbde1008ebe4e182/node_modules/@vercel/analytics/dist/next"],
+      "@xyflow/react": ["./node_modules/.pnpm/@xyflow+react@12.12.0_@types+react-dom@19.2.3_@types+react@19.2.14__@types+react@19.2.1_0159d66b9a3a8ac5586194ca52c7c517/node_modules/@xyflow/react"],
+      "@xyflow/react/*": ["./node_modules/.pnpm/@xyflow+react@12.12.0_@types+react-dom@19.2.3_@types+react@19.2.14__@types+react@19.2.1_0159d66b9a3a8ac5586194ca52c7c517/node_modules/@xyflow/react/*"],
+      "@base-ui/react": ["./node_modules/.pnpm/@base-ui+react@1.5.0_@date-fns+tz@1.4.1_@types+react@19.2.14_date-fns@4.1.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/@base-ui/react"],
+      "@base-ui/react/button": ["./node_modules/.pnpm/@base-ui+react@1.5.0_@date-fns+tz@1.4.1_@types+react@19.2.14_date-fns@4.1.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/@base-ui/react/button"],
+      "@base-ui/react/tabs": ["./node_modules/.pnpm/@base-ui+react@1.5.0_@date-fns+tz@1.4.1_@types+react@19.2.14_date-fns@4.1.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/@base-ui/react/tabs"],
+      "@base-ui/react/tooltip": ["./node_modules/.pnpm/@base-ui+react@1.5.0_@date-fns+tz@1.4.1_@types+react@19.2.14_date-fns@4.1.0_react-dom@19.2.4_react@19.2.4__react@19.2.4/node_modules/@base-ui/react/tooltip"],
+      "vitest": ["./node_modules/.pnpm/vitest@5.0.2_@types+node@24.10.4_vite@8.3.1_@types+node@24.10.4_jiti@2.7.0_/node_modules/vitest"],
+      "vitest/*": ["./node_modules/.pnpm/vitest@5.0.2_@types+node@24.10.4_vite@8.3.1_@types+node@24.10.4_jiti@2.7.0_/node_modules/vitest/*"],
+      "vitest/config": ["./node_modules/.pnpm/vitest@5.0.2_@types+node@24.10.4_vite@8.3.1_@types+node@24.10.4_jiti@2.7.0_/node_modules/vitest/config"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": ["node_modules", "tests/**", "vitest.config.ts"]
+}

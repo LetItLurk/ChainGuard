@@ -1,0 +1,25 @@
+# ChainGuard backend dependencies
+# Pin major versions for reproducibility; use `pip install --upgrade` to update.
+
+# Web framework
+fastapi==0.115.12
+python-multipart==0.0.20
+uvicorn[standard]==0.34.0
+
+# HTTP client (used by AI client and GitHub ingestion)
+httpx==0.28.1
+
+# Data validation (required by FastAPI)
+pydantic==2.11.4
+
+# Test runner
+pytest>=8.0.0
+
+# ---- Optional analysis tools ----
+# Uncomment or install separately when running the full analysis pipeline.
+#
+# slither-analyzer>=0.10.0    # Smart-contract static analysis
+#                              # Requires solc-select + a solc binary:
+#                              #   pip install solc-select
+#                              #   solc-select install 0.8.20
+#                              #   solc-select use 0.8.20
